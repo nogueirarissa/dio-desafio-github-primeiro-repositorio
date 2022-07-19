@@ -1,12 +1,12 @@
-# Controlando as versıes do cÛdigo
+# Controlando as vers√µes do c√≥digo
 
-## O que È o git?
+## O que √© o git?
 
-… um sistema de controle de versıes distribuÌdo, utilizado para registrar o histÛrico de ediÁıes de arquivos.
+√â um sistema de controle de vers√µes distribu√≠do, utilizado para registrar o hist√≥rico de edi√ß√µes de arquivos.
 
-## O que È o github?
+## O que √© o github?
 
-… uma plataforma de hospedagem de cÛdigo-fonte e arquivos com controle de vers„o usando o Git.
+√â uma plataforma de hospedagem de c√≥digo-fonte e arquivos com controle de vers√£o usando o Git.
 
 ## Primeiros passos:
 
@@ -14,21 +14,21 @@
 
 ## Iniciando o Git e criando um commit:
 
-- git init: cria um repositÛrio dentro do diretÛrio (pasta), esse repositÛrio fica em uma pasta oculta onde as versıes do cÛdigo ser„o gerenciadas;
+- **git init:** cria um reposit√≥rio dentro do diret√≥rio (pasta), esse reposit√≥rio fica em uma pasta oculta onde as vers√µes do c√≥digo ser√£o gerenciadas;
 		
-- git add: joga o arquivo para o staged.
+- **git add:** joga o arquivo para o staged.
 		
-	Obs: git add *: o * pega tudo o que foi modificado no diretÛrio de trabalho e adiciona para o staged.
+	Obs: git add *: o * pega tudo o que foi modificado no diret√≥rio de trabalho e adiciona para o staged.
 
-- git commit -m "escrever mensagem": gera um commit, o que quer dizer que por baixo dos panos "tira um print" das modificaÁıes feitas e salva. Quando isso acontece o status volta para unmodified.
+- **git commit -m "escrever mensagem":** gera um commit, o que quer dizer que por baixo dos panos "tira um print" das modifica√ß√µes feitas e salva. Quando isso acontece o status volta para unmodified.
 
-	Obs: o -m È uma flag que permite colocar uma mensagem. Essa mensagem ir· servir para divulgar o que aquele commit fez. 
+	Obs: o -m √© uma flag que permite colocar uma mensagem. Essa mensagem ir√° servir para divulgar o que aquele commit fez. 
 
-- git remote add origin caminho do repositÛrio remoto: Centraliza o cÛdigo-fonte para os outros projetos, criando uma referÍncia. Ou seja, o comando git remote add origin caminho do repositÛrio remoto cria um novo controle remoto chamado origin localizado em caminho do repositÛrio remoto. Depois de fazer isso, nos comandos push, È possÌvel enviar para a origin em vez de digitar a URL ou caminho inteiro.
+- **git remote add origin caminho do reposit√≥rio remoto:** Centraliza o c√≥digo-fonte para os outros projetos, criando uma refer√™ncia. Ou seja, o comando git remote add origin caminho do reposit√≥rio remoto cria um novo controle remoto chamado origin localizado em caminho do reposit√≥rio remoto. Depois de fazer isso, nos comandos push, √© poss√≠vel enviar para a origin em vez de digitar a URL ou caminho inteiro.
 
-- git push origin master: empurra do repositÛrio local para o remoto.
+- **git push origin master:** empurra do reposit√≥rio local para o remoto.
 
 ## Resolvendo conflitos
 
-- git pull origin master: puxa as alteraÁıes do repositÛrio remoto para o local.
+- **git pull origin master:** puxa as altera√ß√µes do reposit√≥rio remoto para o local.
  
